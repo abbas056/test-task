@@ -4,7 +4,7 @@ import vector1 from "../assets/Vector1.png";
 import ellipse153 from "../assets/Ellipse-153.png";
 import Signature from "../assets/Signature.png";
 import SuperToroid from "../assets/SuperToroid-Black-Matte.png";
-import Dummy1 from "../assets/Dawn.png"; // Replace with the actual image paths
+import Dummy1 from "../assets/Dawn.png";
 import Dummy2 from "../assets/Spiral1.png";
 import Dummy3 from "../assets/Vector.png";
 import Dummy4 from "../assets/Ornament-19.png";
@@ -12,11 +12,10 @@ import Dummy4 from "../assets/Ornament-19.png";
 function MainContent() {
   return (
     <main className="w-full flex flex-col py-10 px-4 md:px-8 text-white relative">
-      {/* Floating Images */}
-      <img src={Dummy1} alt="Dummy1" className="absolute top-24 left-20 w-40 h-40" />
-      <img src={Dummy2} alt="Dummy2" className="absolute top-48 right-80 w-32 h-32" />
-      {/* <img src={Dummy3} alt="Dummy3" className="absolute bottom-0 right-0 w-24 h-24" /> */}
-      <img src={Dummy4} alt="Dummy4" className="absolute bottom-96 right-1/4 w-24 h-24" />
+      <img src={Dummy1} alt="Dummy1" className="absolute top-24 left-16 w-20 md:w-32 lg:w-52 h-auto" />
+      <img src={Dummy2} alt="Dummy2" className="absolute top-48 right-40 md:right-60 lg:right-80 w-20 md:w-28 lg:w-52 h-auto" />
+      {/* <img src={Dummy3} alt="Dummy3" className="absolute bottom-40 right-0 w-16 md:w-20 lg:w-24 h-auto" /> */}
+      <img src={Dummy4} alt="Dummy4" className="absolute bottom-80 right-1/4 w-16 md:w-20 lg:w-40 h-auto" />
 
       <div className="w-full flex flex-col md:flex-row py-10 text-white space-y-8 md:space-y-0 md:space-x-8">
         <div className="relative w-full md:w-1/6 flex flex-col justify-end items-start mb-4">

@@ -1,6 +1,5 @@
 import React from "react";
 import round from "../assets/round.png";
-import ellipse from "../assets/Ellipse.png";
 import rightUp1 from "../assets/right-up1.png";
 import rightUp from "../assets/right-up.png";
 
