@@ -21,7 +21,7 @@ function ResponsiveSection() {
         <div className="w-full lg:w-1/2 xl:w-2/5 mb-8 lg:mb-0">
           <img src={floatingImage} alt="Left" className="w-full h-auto object-cover rounded-lg" />
         </div>
-        <div className="bg-gray-800 bg-opacity-90 p-8 md:p-16 rounded-2xl w-full lg:w-1/2 xl:w-2/5 mx-auto flex flex-col lg:flex-row lg:items-center">
+        <div className="bg-gray-800 bg-opacity-90 p-8 md:p-16 rounded-2xl w-full lg:w-1/2 xl:w-2/5 mx-auto flex flex-col lg:flex-row lg:items-center mt-8 lg:mt-12">
           <div className="flex flex-col items-center space-y-4 lg:space-y-8">
             <img src={avatar1} alt="Avatar 1" className="w-16 h-16 rounded-full" />
             <img src={avatar2} alt="Avatar 2" className="w-16 h-16 rounded-full -ml-6" />
