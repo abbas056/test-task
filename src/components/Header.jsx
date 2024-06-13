@@ -10,7 +10,7 @@ function Header() {
 
   return (
     <header className="header p-4 flex justify-between items-center  text-white">
-      <div className="logo d-flex al-center jc-center gap-2 text-2xl font-bold">
+      <div className="logo flex items-center justify-center gap-2 text-2xl font-bold">
         <img src={logo} alt="" />
         <span>ConsalPro</span>
       </div>
