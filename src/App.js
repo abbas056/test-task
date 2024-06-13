@@ -4,7 +4,6 @@ import Header from "./components/Header";
 import MainContent from "./components/MainContent";
 import Services from "./components/Services";
 import VideoSection from "./components/VideoSection";
-import Testimonials from "./components/Testimonials";
 import BlogUpdates from "./components/BlogUpdates";
 import "./App.scss";
 
@@ -41,7 +40,6 @@ function App() {
       <MainContent />
       <Services />
       <VideoSection />
-      <Testimonials />
       <BlogUpdates />
     </div>
   );

@@ -1,17 +1,17 @@
 body,
 html {
-  background-color: black;
-  cursor: none;
+  background-color: #493d24;
+  background-image: linear-gradient(225deg, #493d24 0%, #151411 50%, black 100%);
 }
 
 .custom-cursor {
   position: fixed;
   z-index: 10;
-  width: 100px;
-  height: 100px;
-  background-color: transparent;
-  box-shadow: 0px 0px 20px 17px brown;
-  border-radius: 50%;
+  width: 140px;
+  height: 50px;
+  background-color: #51432753;
+  box-shadow: 0px 0px 20px 17px #514327;
+  border-radius: 5%;
   pointer-events: none;
   transform: translate(-50%, -50%);
 }
@@ -68,6 +68,8 @@ html {
   }
 
   .mobile-menu {
+    background-color: #514327;
+    z-index: 1;
     @media (max-width: 767px) {
       display: flex;
       flex-direction: column;
@@ -81,122 +83,6 @@ html {
         &:hover {
           text-decoration: underline;
         }
-      }
-    }
-  }
-}
-.play-section {
-  background-image: url("./assets/play-section-bg.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 100vh; /* Adjust height as needed */
-  .play-button {
-    background-image: url("./assets/play-btn-bg.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 8rem;
-    height: 8rem;
-    background-color: transparent;
-    color: white;
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-@media (min-width: 768px) {
-  .play-button {
-    width: 10rem;
-    height: 10rem;
-    font-size: 1.25rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .play-button {
-    width: 12rem;
-    height: 12rem;
-    font-size: 1.5rem;
-  }
-}
-.main-section {
-  padding-left: 10rem;
-  img {
-    width: 30rem;
-  }
-  button {
-    right: -1rem;
-    bottom: -1rem;
-    width: 6rem;
-    height: 6rem;
-    color: black;
-  }
-}
-.services {
-  background-color: black;
-  width: 80%;
-  margin: 0 auto;
-  border-radius: 1rem;
-  box-shadow: 2px 2px 6px 5px black;
-  .grid {
-    .text-left {
-      &:first-child {
-        border-radius: 0.5rem 0 0 0.5rem;
-      }
-      &:last-child {
-        border-radius: 0 0.5rem 0.5rem 0;
-      }
-      height: 40vh;
-      padding: 1rem;
-      border: 1px solid rgba(193, 186, 186, 0.645);
-      .bottom {
-        img {
-          width: 3rem;
-        }
-      }
-    }
-  }
-}
-.testimonials {
-  margin-top: -13rem;
-  .left-img {
-    width: 30%;
-    margin-top: -6rem;
-    z-index: 1;
-  }
-  .clients {
-    margin-top: -8rem;
-    z-index: 1;
-    padding: 3rem;
-    width: 40%;
-    height: 50vh;
-    background-color: rgb(28, 26, 26);
-    .imgs {
-      img {
-        &:nth-child(1) {
-          width: 10rem;
-        }
-        &:nth-child(2) {
-          width: 25rem !important;
-          margin-left: -2rem;
-        }
-        &:nth-child(3) {
-          width: 10rem;
-        }
-      }
-    }
-  }
-  .details {
-    color: rgb(103, 95, 95);
-    .arrows {
-      span {
-        border: 0.5px solid white;
-        padding: 0.3rem;
-        color: white;
       }
     }
   }

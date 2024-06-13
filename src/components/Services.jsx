@@ -6,57 +6,57 @@ import rightUp from "../assets/right-up.png";
 
 function Services() {
   return (
-    <section className="services py-20  text-white">
-      <h2 className="text-4xl d-flex fd-column al-center jc-center text-center mb-12">
-        <div className="d-flex  al-center jc-center gap-2">
+    <section className="bg-black w-full md:w-4/5 mx-auto py-20 text-white rounded-2xl">
+      <h2 className="text-3xl md:text-4xl flex flex-col items-center justify-center text-center mb-12">
+        <div className="flex items-center justify-center gap-2 mb-4">
           <span>
             Unique <strong>Ideas</strong>
           </span>
-          <img src={round} alt="" />
+          <img className="w-10 md:w-16 lg:w-40" src={round} alt="" />
         </div>
-        <div className="d-flex  al-center jc-center gap-2">
-          <img className="w-max rounded-lg shadow-lg" src={rightUp1} alt="" />
+        <div className="flex items-center justify-center gap-2">
+          <img className="w-8 md:w-12 lg:w-20 rounded-lg shadow-lg" src={rightUp1} alt="" />
           <span>
             <strong>For Your</strong> Business
           </span>
         </div>
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-8">
-        <div className="text-left d-flex fd-column jc-s-between">
-          <h3 className="text-2xl  mb-4">Web Design & Development</h3>
-          <div className="bottom d-flex jc-s-between al-center">
-            <img src={rightUp} alt="" />
-            <span className="text-2xl">01</span>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-4 md:px-8">
+        <div className="text-left flex border border-gray-400 border-opacity-70 p-4 md:p-8 flex-col justify-between gap-10">
+          <h3 className="text-xl md:text-2xl mb-4">Web Design & Development</h3>
+          <div className="bottom flex items-center justify-between">
+            <img className="w-6 md:w-10" src={rightUp} alt="" />
+            <span className="text-3xl md:text-4xl text-gray-500 font-londrina">01</span>
           </div>
         </div>
-        <div className="text-left d-flex fd-column jc-s-between">
-          <h3 className="text-2xl  mb-4">
+        <div className="text-left flex border border-gray-400 border-opacity-70 p-4 md:p-8 flex-col justify-between gap-10">
+          <h3 className="text-xl md:text-2xl mb-4">
             Advertising and <br /> Marketing Campaigns
           </h3>
-          <p>Effective marketing strategies to boost your brand. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-          <div className="bottom d-flex jc-s-between al-center">
-            <img src={rightUp1} alt="" />
-            <span className="text-2xl c-yellow">02</span>
+          <p className="text-sm md:text-base">
+            Effective marketing strategies to boost your brand. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <div className="bottom flex items-center justify-between">
+            <img className="w-6 md:w-12" src={rightUp1} alt="" />
+            <span className="text-3xl md:text-4xl text-yellow-500">02</span>
           </div>
         </div>
-        <div className="text-left d-flex fd-column jc-s-between">
-          <h3 className="text-2xl  mb-4">
+        <div className="text-left flex border border-gray-400 border-opacity-70 p-4 md:p-8 flex-col justify-between gap-10">
+          <h3 className="text-xl md:text-2xl mb-4">
             Creative Consulting <br /> and Development
           </h3>
-
-          <div className="bottom d-flex jc-s-between al-center">
-            <img src={rightUp} alt="" />
-            <span className="text-2xl">03</span>
+          <div className="bottom flex items-center justify-between">
+            <img className="w-6 md:w-10" src={rightUp} alt="" />
+            <span className="text-3xl md:text-4xl text-gray-500 font-londrina">03</span>
           </div>
         </div>
-        <div className="text-left d-flex fd-column jc-s-between">
-          <h3 className="text-2xl  mb-4">
+        <div className="text-left flex border border-gray-400 border-opacity-70 p-4 md:p-8 flex-col justify-between gap-10">
+          <h3 className="text-xl md:text-2xl mb-4">
             Branding and <br /> Identity Design
           </h3>
-
-          <div className="bottom d-flex jc-s-between al-center">
-            <img src={rightUp} alt="" />
-            <span className="text-2xl">04</span>
+          <div className="bottom flex items-center justify-between">
+            <img className="w-6 md:w-10" src={rightUp} alt="" />
+            <span className="text-3xl md:text-4xl text-gray-500 font-londrina">04</span>
           </div>
         </div>
       </div>
